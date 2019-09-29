@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -19,10 +21,15 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background: image_url('pink_rice.png');
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'Merriweather', serif;
 }
 
 .navbar {
-  background: image_url('tweed.png');
+  background: image_url('slash_it.png');
   box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #6C8E23;
+  font-family: 'Mansalva', cursive;
 }
