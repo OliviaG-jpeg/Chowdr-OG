@@ -2,6 +2,7 @@ class Place < ApplicationRecord
   belongs_to :user
   has_many :comments
   has_many :photos
+  has_many :pictures
   validates :name, length: { minimum: 3 }
   validates :address, presence: true
   validates :description, presence: true  
